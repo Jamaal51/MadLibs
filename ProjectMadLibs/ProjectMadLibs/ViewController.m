@@ -28,7 +28,7 @@
 
 - (IBAction)buttonGoMad:(id)sender {
     
-    NSLog(@"The Greatest Wrestler Ever\n The %@ %@ was the greatest wrestler from %@. His finishing move was the %@ %@.His arch nemesis is The %@. They fought for the World Title at %@ Square Garden. In 1995, he retired due to a broken %@.", self.textAdjective.text, self.textNoun.text, self.textCountry.text, self.textAdverb.text, self.textBodyPart.text, self.textNoun2.text, self.textPresidentName.text, self.textBodyPart2.text);
+    NSLog(@"The Greatest Wrestler Ever\n The %@ %@ was the greatest wrestler ever from the land of %@. His finishing move was the %@ %@.His arch nemesis was The %@. They fought for the World Title at %@ Square Garden. In 1995, he retired due to a broken %@.", self.textAdjective.text, self.textNoun.text, self.textCountry.text, self.textAdverb.text, self.textBodyPart.text, self.textNoun2.text, self.textPresidentName.text, self.textBodyPart2.text);
 }
 
 - (void)viewDidLoad {
