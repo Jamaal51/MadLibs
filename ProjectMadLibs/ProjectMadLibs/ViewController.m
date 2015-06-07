@@ -9,12 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
-@property (weak, nonatomic) IBOutlet UILabel *labelAdjective;
-@property (weak, nonatomic) IBOutlet UILabel *labelNoun;
-@property (weak, nonatomic) IBOutlet UILabel *labelCountry;
-@property (weak, nonatomic) IBOutlet UILabel *labelAdverb;
-@property (weak, nonatomic) IBOutlet UILabel *labelBodyPart;
+@property (weak, nonatomic) IBOutlet UILabel *labelTitle;
 @property (weak, nonatomic) IBOutlet UILabel *labelButton;
 
 @property (weak, nonatomic) IBOutlet UITextField *textAdjective;
@@ -22,6 +17,9 @@
 @property (weak, nonatomic) IBOutlet UITextField *textCountry;
 @property (weak, nonatomic) IBOutlet UITextField *textAdverb;
 @property (weak, nonatomic) IBOutlet UITextField *textBodyPart;
+@property (weak, nonatomic) IBOutlet UITextField *textNoun2;
+@property (weak, nonatomic) IBOutlet UITextField *textPresidentName;
+@property (weak, nonatomic) IBOutlet UITextField *textBodyPart2;
 
 
 @end
@@ -30,18 +28,13 @@
 
 - (IBAction)buttonGoMad:(id)sender {
     
-    NSLog(@"The Greatest Wrestler Ever\n The %@ %@ was the HeavyWeight Champion of %@. His finishing move was the %@ %@.", self.textAdjective.text, self.textNoun.text, self.textCountry.text, self.textAdverb.text, self.textBodyPart.text);
+    NSLog(@"The Greatest Wrestler Ever\n The %@ %@ was the greatest wrestler from %@. His finishing move was the %@ %@.His arch nemesis is The %@. They fought for the World Title at %@ Square Garden. In 1995, he retired due to a broken %@.", self.textAdjective.text, self.textNoun.text, self.textCountry.text, self.textAdverb.text, self.textBodyPart.text, self.textNoun2.text, self.textPresidentName.text, self.textBodyPart2.text);
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.labelAdjective.text = @"Adjective";
-    self.labelNoun.text = @"Noun";
-    self.labelCountry.text = @"Country";
-    self.labelAdverb.text = @"Adverb";
-    self.labelBodyPart.text = @"Body Part";
-    self.labelButton.text = @"Go Mad!";
+        self.labelTitle.text = @"The Greatest Wrestler Ever!";
+        self.labelButton.text = @"Go Mad!";
     
     
     
