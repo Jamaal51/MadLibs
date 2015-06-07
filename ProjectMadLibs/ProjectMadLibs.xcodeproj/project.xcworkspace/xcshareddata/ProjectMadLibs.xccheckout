@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CC525A70-FEB9-4241-A290-40FE0A524FEE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ECC51A1497FBF745A92F2EF54646794F2844983B</key>
+		<string>https://github.com/Jamaal51/MadLibs.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ProjectMadLibs/ProjectMadLibs.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ECC51A1497FBF745A92F2EF54646794F2844983B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Jamaal51/MadLibs.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ECC51A1497FBF745A92F2EF54646794F2844983B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ECC51A1497FBF745A92F2EF54646794F2844983B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>06-07-15</string>
+		</dict>
+	</array>
+</dict>
+</plist>

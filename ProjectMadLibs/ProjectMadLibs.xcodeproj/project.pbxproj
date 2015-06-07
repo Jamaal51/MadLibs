@@ -14,6 +14,7 @@
 		2FC3BB3D1B24C800002E414F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC3BB3C1B24C800002E414F /* Images.xcassets */; };
 		2FC3BB401B24C800002E414F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FC3BB3E1B24C800002E414F /* LaunchScreen.xib */; };
 		2FC3BB4C1B24C800002E414F /* ProjectMadLibsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC3BB4B1B24C800002E414F /* ProjectMadLibsTests.m */; };
+		2FC3BB561B24ED08002E414F /* warrior.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FC3BB551B24ED08002E414F /* warrior.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		2FC3BB451B24C800002E414F /* ProjectMadLibsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectMadLibsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC3BB4A1B24C800002E414F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FC3BB4B1B24C800002E414F /* ProjectMadLibsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectMadLibsTests.m; sourceTree = "<group>"; };
+		2FC3BB551B24ED08002E414F /* warrior.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = warrior.jpg; path = ../../../../../../Desktop/warrior.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				2FC3BB361B24C800002E414F /* ViewController.h */,
 				2FC3BB371B24C800002E414F /* ViewController.m */,
 				2FC3BB391B24C800002E414F /* Main.storyboard */,
+				2FC3BB551B24ED08002E414F /* warrior.jpg */,
 				2FC3BB3C1B24C800002E414F /* Images.xcassets */,
 				2FC3BB3E1B24C800002E414F /* LaunchScreen.xib */,
 				2FC3BB2F1B24C800002E414F /* Supporting Files */,
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FC3BB561B24ED08002E414F /* warrior.jpg in Resources */,
 				2FC3BB3B1B24C800002E414F /* Main.storyboard in Resources */,
 				2FC3BB401B24C800002E414F /* LaunchScreen.xib in Resources */,
 				2FC3BB3D1B24C800002E414F /* Images.xcassets in Resources */,

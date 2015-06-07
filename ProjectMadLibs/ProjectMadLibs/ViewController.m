@@ -21,6 +21,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *textPresidentName;
 @property (weak, nonatomic) IBOutlet UITextField *textBodyPart2;
 
+@property (weak, nonatomic) IBOutlet UIImageView *frontPic;
 
 @end
 
